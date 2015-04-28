@@ -5,7 +5,7 @@
   
   <title>我的第一篇文章 | bounlusin&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="这是我自己搭建blog写的第一篇文章。
+  <meta name="description" content="这是我自己用hexo搭建blog之后写的第一篇文章。
 从25号开始到现在，从什么都不会到成功，心里的满足感不言而喻。
 这期间接触到的一些东西：
 
@@ -21,16 +21,18 @@ node.js
 
 hexo 
 
-markdown
+markdown 
 
 
 期间遇到不少困难，大部分还是吃了英文不好的亏。
-原本走的是 git—&amp;gt;ruby—&amp;gt;devkit—&amp;gt;jekyll 这条路，但是jekyll安装过">
+原本走的是 
+git--&amp;gt;ruby--&amp;gt;devkit--&amp;gt;jekyll
+这条路">
 <meta property="og:type" content="article">
 <meta property="og:title" content="我的第一篇文章">
 <meta property="og:url" content="http://bounlusin.github.io/2015/04/28/my-first-post/index.html">
 <meta property="og:site_name" content="bounlusin's blog">
-<meta property="og:description" content="这是我自己搭建blog写的第一篇文章。
+<meta property="og:description" content="这是我自己用hexo搭建blog之后写的第一篇文章。
 从25号开始到现在，从什么都不会到成功，心里的满足感不言而喻。
 这期间接触到的一些东西：
 
@@ -46,14 +48,16 @@ node.js
 
 hexo 
 
-markdown
+markdown 
 
 
 期间遇到不少困难，大部分还是吃了英文不好的亏。
-原本走的是 git—&amp;gt;ruby—&amp;gt;devkit—&amp;gt;jekyll 这条路，但是jekyll安装过">
+原本走的是 
+git--&amp;gt;ruby--&amp;gt;devkit--&amp;gt;jekyll
+这条路">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="我的第一篇文章">
-<meta name="twitter:description" content="这是我自己搭建blog写的第一篇文章。
+<meta name="twitter:description" content="这是我自己用hexo搭建blog之后写的第一篇文章。
 从25号开始到现在，从什么都不会到成功，心里的满足感不言而喻。
 这期间接触到的一些东西：
 
@@ -69,11 +73,13 @@ node.js
 
 hexo 
 
-markdown
+markdown 
 
 
 期间遇到不少困难，大部分还是吃了英文不好的亏。
-原本走的是 git—&amp;gt;ruby—&amp;gt;devkit—&amp;gt;jekyll 这条路，但是jekyll安装过">
+原本走的是 
+git--&amp;gt;ruby--&amp;gt;devkit--&amp;gt;jekyll
+这条路">
   
     <link rel="alternative" href="/atom.xml" title="bounlusin&#39;s blog" type="application/atom+xml">
   
@@ -145,7 +151,7 @@ markdown
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>这是我自己搭建blog写的第一篇文章。</p>
+        <p>这是我自己用hexo搭建blog之后写的第一篇文章。</p>
 <p>从25号开始到现在，从什么都不会到成功，心里的满足感不言而喻。</p>
 <p>这期间接触到的一些东西：</p>
 <ul>
@@ -161,20 +167,41 @@ markdown
 </li>
 <li><p>hexo </p>
 </li>
-<li><p>markdown</p>
+<li><p>markdown </p>
 </li>
 </ul>
 <p>期间遇到不少困难，大部分还是吃了英文不好的亏。</p>
-<p>原本走的是 git—&gt;ruby—&gt;devkit—&gt;jekyll 这条路，但是jekyll安装过程中有个不明原因的错误，偶然发现了 hexo，于是转投 git—&gt;node.js—&gt;hexo ，效果不错。</p>
+<p>原本走的是 </p>
+<pre><code><span class="comment">git</span><span class="literal">-</span><span class="literal">-</span>&gt;<span class="comment">ruby</span><span class="literal">-</span><span class="literal">-</span>&gt;<span class="comment">devkit</span><span class="literal">-</span><span class="literal">-</span>&gt;<span class="comment">jekyll</span>
+</code></pre><p>这条路，但是jekyll安装过程中有个不明原因的错误，至今尚未查明。</p>
+<p>偶然发现了 hexo，于是转投</p>
+<pre><code><span class="comment">git</span><span class="literal">-</span><span class="literal">-</span>&gt;<span class="comment">node</span><span class="string">.</span><span class="comment">js</span><span class="literal">-</span><span class="literal">-</span>&gt;<span class="comment">hexo</span>
+</code></pre><p>效果不错。</p>
 <p>2015/4/28 0:48:20 </p>
+<hr>
+<p>update：</p>
+<p>其实昨晚并没有完全调试好，hexo生成的静态网页在我电脑上可以访问，却没有成功推送到github上，原因是</p>
+<pre><code><span class="title">hexo</span> deployer
+</code></pre><p>这个指令总是失败。</p>
+<p>查了资料发现hexo安装时忘了执行下面这个指令</p>
+<pre><code>npm <span class="operator"><span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></span>
+</code></pre><p>更正之后即可成功推送到github上，且不用</p>
+<pre><code>git <span class="keyword">push</span> origin master
+</code></pre><p>2015/4/28 17:31:53 </p>
+<hr>
+<p>不管怎么样，这个blog算是搭建起来了，以后我会在这里写一些学习总结，知识管理以及个人感悟。</p>
+<p>为什么要写blog呢？</p>
+<p>我觉得重要的不是一定要写出来什么东西给别人看，重要的是写blog过程中的自我思考和进步，当然写出来好的东西分享给大家也是好的。</p>
+<p>有很多时候我们都不知所措，茫然，不知道该做什么，该怎么做，做的是否正确。自我思考对于我们来说，很重要。保持热情和毅力去做事固然重要，但停下来思考也是必不可少的。</p>
+<p>写blog的目的就在于此：自我思考。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://bounlusin.github.io/2015/04/28/my-first-post/" data-id="ci913wjia0000e4y7s5px0wyh" class="article-share-link">Share</a>
+      <a data-url="http://bounlusin.github.io/2015/04/28/my-first-post/" data-id="ci914rwha0000kwy7cq5muo63" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客/">博客</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/文章/">文章</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客，文章，随笔/">博客，文章，随笔</a></li></ul>
 
     </footer>
   </div>
@@ -193,7 +220,7 @@ markdown
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/博客/">博客</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/文章/">文章</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/博客，文章，随笔/">博客，文章，随笔</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -202,7 +229,7 @@ markdown
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/博客/" style="font-size: NaNpx;">博客</a><a href="/tags/文章/" style="font-size: NaNpx;">文章</a>
+      <a href="/tags/博客，文章，随笔/" style="font-size: NaNpx;">博客，文章，随笔</a>
     </div>
   </div>
 
