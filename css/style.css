@@ -205,7 +205,7 @@ a {
   height: 110px;
   position: absolute;
   width: 100%;
-  background: #4d4d4d;
+  background: #6495ed;
 }
 #container #mobile-nav .overlay.fixed {
   position: fixed;
@@ -246,7 +246,7 @@ a {
 #container .left-col .overlay {
   width: 100%;
   height: 180px;
-  background-color: #000;
+  background-color: #6495ed;
   position: absolute;
   opacity: 0.7;
 }
@@ -478,7 +478,7 @@ a {
   width: 100%;
 }
 #header a {
-  color: #696969;
+  color: #6495ed;
 }
 #header a:hover {
   color: #b0a0aa;
@@ -517,7 +517,7 @@ a {
 }
 #header .header-subtitle {
   text-align: center;
-  color: #999;
+  color: #6495ed;
   font-size: 14px;
   line-height: 25px;
   overflow: hidden;
@@ -606,7 +606,7 @@ a {
   margin-right: 0;
 }
 #header .header-nav .social a.weibo {
-  background: url("/img/weibo.png") center no-repeat #aaf;
+  background: url("/img/weibo.png") center no-repeat #6495ed;
   border: 1px solid #aaf;
 }
 #header .header-nav .social a.weibo:hover {
@@ -620,7 +620,7 @@ a {
   border: 1px solid #cf5d0f;
 }
 #header .header-nav .social a.github {
-  background: url("/img/github.png") center no-repeat #afb6ca;
+  background: url("/img/github.png") center no-repeat #696969;
   border: 1px solid #afb6ca;
 }
 #header .header-nav .social a.github:hover {
